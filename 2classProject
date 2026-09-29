@@ -1,0 +1,27 @@
+<html>
+    <title>
+    <!--Slides-->
+    <section>
+       <img class="Slides" src="images.jpg" style="height:250px;" width="250px;">
+       <img class="Slides" src="honeybee-is-captured-in-mid-flight-working-diligently-gather-pollen-from-vibrant-sunflower-clear-blue-sky-contrast-of-yellow-petals-adds-beauty-scene-photo.jpeg" style="height:500px" 
+       width="500px;">
+       <img class="Slides" src="images (1).jpg" style="height:500px;" width="200px;">
+    <img class="Slides" src="Cool-Space-HD-Wallpaper.jpg" style="height:500px;" width="500px;">
+    <img class="Slides" src="images (2).jpg" style="height:100px;" width="350px;">
+    </section>
+    <Script>
+// Automatic SlideShow, Image changed every 5 seconds.
+var myIndex=0
+    </Script>
+    carousel();
+    function carosuel() {
+        var i;
+        var x = document.getElementsByClassName("Slides");
+        for (i=0; 1 < x.length; i++) 
+        { x[myIndex-1].style.display="block" ;
+         setTimeout(carosuel, 3000);
+    }
+}
+ </script>
+        </body>
+        </html>
